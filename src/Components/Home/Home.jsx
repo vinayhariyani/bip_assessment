@@ -47,7 +47,7 @@ const Home = () => {
       data: { data },
     } = await axios.get(`${apiUrl}`);
     yearManipulation(data.results);
-    setUpcomingMovies(upcomingMovies);
+    // setUpcomingMovies(upcomingMovies);
   };
 
   const currentYear = new Date().getFullYear();
